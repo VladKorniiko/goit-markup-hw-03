@@ -50,6 +50,8 @@ section {
 /* Header */
 .header {
   border-bottom: 1px solid #e7e9fc;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .cotainer-header {
@@ -209,7 +211,7 @@ section {
 /* Team */
 .team {
   background: #f4f4fd;
-  padding: 120px 156px;
+  padding: 120px 0;
 }
 
 .team-title {
@@ -310,7 +312,7 @@ section {
 .footer {
   background: #2e2f42;
   padding-top: 101.5px;
-  padding: 120px 0;
+  padding: 100px 0;
   max-height: 312px;
 }
 
