@@ -36,8 +36,7 @@ a {
 .container {
   max-width: 1158px;
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px 0 15px;
 }
 img {
   display: block;
@@ -50,8 +49,6 @@ section {
 /* Header */
 .header {
   border-bottom: 1px solid #e7e9fc;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .cotainer-header {
