@@ -36,7 +36,8 @@ a {
 .container {
   max-width: 1158px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 img {
   display: block;
@@ -48,6 +49,7 @@ section {
 }
 /* Header */
 .header {
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .cotainer-header {
@@ -55,14 +57,12 @@ section {
   padding: 0 156px;
   max-height: 72px;
   align-items: center;
-  border-bottom: 1px solid #e7e9fc;
   background: #fff;
 }
 
 .header-nav {
   display: flex;
   align-items: center;
-  gap: 76px;
 }
 
 .header-menu {
@@ -80,6 +80,7 @@ section {
   text-transform: uppercase;
   padding: 24px 0;
   margin: 0 auto;
+  margin-right: 76px;
 }
 
 .span-logo {
@@ -153,6 +154,9 @@ section {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   padding: 16px 32px;
   border: none;
+  display: block;
+  min-width: 169px;
+  margin: 0 auto;
 }
 
 .main-info-btn:hover,
@@ -166,13 +170,13 @@ section {
 }
 
 .advantages-list {
-  padding: 120px 156px;
+  padding: 120px 0;
   display: flex;
   gap: 24px;
 }
 
 .advantages-iteam {
-  width: calc((100% - 24px * 3) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .advantages-title {
@@ -205,8 +209,7 @@ section {
 /* Team */
 .team {
   background: #f4f4fd;
-  padding-left: 156px;
-  padding-right: 156px;
+  padding: 120px 156px;
 }
 
 .team-title {
@@ -220,15 +223,18 @@ section {
   margin-bottom: 72px;
 }
 
-.container-subtitle {
-  background: #fff;
-  padding-top: 32px;
-  padding-bottom: 32px;
+.team-iteam {
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   border-top: none;
+}
+
+.container-subtitle {
+  background: #fff;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .team-list {
@@ -255,7 +261,7 @@ section {
 /* Our Portfolio */
 .portfolio {
   background: #fff;
-  padding: 120px 156px;
+  padding: 120px 0;
 }
 
 .portfolio-titel {
@@ -279,9 +285,7 @@ section {
   border: 1px solid #e7e9fc;
   background: #fff;
   border-top: none;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 16px;
+  padding: 32px 16px;
 }
 
 .portfolio-iteam {
@@ -306,8 +310,7 @@ section {
 .footer {
   background: #2e2f42;
   padding-top: 101.5px;
-  padding-left: 156px;
-  padding-bottom: 100px;
+  padding: 120px 0;
   max-height: 312px;
 }
 
@@ -319,7 +322,8 @@ section {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-bottom: 17.5px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-text {
