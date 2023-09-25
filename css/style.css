@@ -53,7 +53,6 @@ section {
 
 .cotainer-header {
   display: flex;
-  padding: 0 156px;
   max-height: 72px;
   align-items: center;
   background: #fff;
