@@ -38,6 +38,7 @@ a {
   margin: 0 auto;
   padding: 0 15px 0 15px;
 }
+
 img {
   display: block;
 }
@@ -46,10 +47,10 @@ section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
 /* Header */
 .header {
   border-bottom: 1px solid #e7e9fc;
-  padding: 0 15px 0 15px;
 }
 
 .cotainer-header {
@@ -169,7 +170,6 @@ section {
 }
 
 .advantages-list {
-  padding: 120px 0;
   display: flex;
   gap: 24px;
 }
@@ -208,7 +208,6 @@ section {
 /* Team */
 .team {
   background: #f4f4fd;
-  padding: 120px 0;
 }
 
 .team-title {
@@ -260,7 +259,6 @@ section {
 /* Our Portfolio */
 .portfolio {
   background: #fff;
-  padding: 120px 0;
 }
 
 .portfolio-titel {
