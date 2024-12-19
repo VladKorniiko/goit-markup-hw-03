@@ -50,12 +50,16 @@ section {
 }
 
 .header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.container-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.nav {
+.nav-header {
   display: flex;
   align-items: center;
   gap: 76px;
@@ -137,6 +141,10 @@ address a {
   font-size: 16px;
 }
 
+.advantages-title {
+  visibility: hidden;
+}
+
 .button-main {
   color: #ffffff;
   background-color: #4d5ae5;
@@ -147,8 +155,11 @@ address a {
   line-height: 1.5;
   margin: 0 auto;
   display: block;
+  border: none;
+  min-width: 169px;
+  height: 56px;
   border-radius: 4px;
-  padding: 16px 32px;
+
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
@@ -210,17 +221,18 @@ address a {
 
 .team-container {
   background-color: #ffffff;
-  padding: 32px 16px;
+  padding: 32px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .team-iteam {
   width: calc((100% - 72px) / 4);
-  border-radius: 0 0 4px 4px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-list {
@@ -230,11 +242,11 @@ address a {
 }
 
 .portfolio-item {
-  width: calc((100% - 72px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 
 .sub-container-portfolio {
-  padding: 32px 0 32px 16px;
+  padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
