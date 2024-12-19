@@ -62,13 +62,24 @@ section {
 .nav-header {
   display: flex;
   align-items: center;
-  gap: 76px;
 }
 
 .header-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0 24px 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 address {
@@ -129,6 +140,7 @@ address a {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  margin-right: 76px;
 }
 
 .span {
@@ -139,10 +151,8 @@ address a {
   color: #2e2f42;
   font-weight: 500;
   font-size: 16px;
-}
-
-.advantages-title {
-  visibility: hidden;
+  padding: 24px 0;
+  display: block;
 }
 
 .button-main {
@@ -226,12 +236,10 @@ address a {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  border-radius: 0 0 4px 4px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .team-iteam {
+  border-radius: 0px 0px 4px 4px;
   width: calc((100% - 72px) / 4);
 }
 
@@ -239,6 +247,7 @@ address a {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  row-gap: 48px;
 }
 
 .portfolio-item {
